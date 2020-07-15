@@ -28,7 +28,8 @@
     color:#1F2240;
 }
 
-
+.f-r{ font-family: Rubik-regular; }
+.f-l{ font-family: Rubik-light; }
 .f-m{ font-family: Rubik-medium; }
 .f-b{ font-family: Rubik-bold; }
 
@@ -37,15 +38,104 @@
 .f-20{ font-size: 20px; }
 .f-22{ font-size: 22px; }
 .f-35{ font-size: 35px; }
+.f-48{ font-size: 48px; }
 .f-58{ font-size:58px; }
 
 /** padding layout **/
+.pt-20{ padding-top: 20px;  }
 .pt-24{ padding-top:24px; }
 .pt-40{ padding-top: 40px; }
+.pt-48{ padding-top: 48px; }
+.pt-55 { padding-top:55px; }
 .pt-70{ padding-top:70px; }
 .pt-80{ padding-top: 80px; }
 .pt-100{ padding-top:100px; }
-
+.pt-180 {padding-top:180px; }
+.pb-180{ padding-bottom:180px; }
 /** margine layout **/
 .mr-30{ margin-right:30px;}
 
+/** line height layout **/
+.lh-32{ line-height: 32px; }
+
+/** fill color layout **/
+.f-green{ background-color:#1DB2A6; }
+.f-blue { background-color: #3AA1CF !important; }
+.f-yellow { background-color: #FAB61C !important; }
+
+/******* icon sharp layout ***********/
+/** inline item spacing **/
+.item-space{
+    padding: 40px 20px 0px 20px;
+}
+
+.sm-item-icon{
+    display:flex;
+    align-items: center;
+
+}
+
+.sm-items-list{
+    display:flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+/** rectangle icons with text**/
+.icon-rect{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+/** icons **/
+
+.icon-heart::after{
+    content: url(../img/heart-grey-icon.png);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+  }
+  
+  .icon-car::after{
+    content: url(../img/car-grey-icon.png);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+  }
+  
+  
+  .icon-property::after{
+    content: url(../img/property-grey-icon.png);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+  /***************media query **************/
+
+  @media (max-width: 525px){
+    .home-banner .sm-item-icon{
+        padding-top:10px;
+        width:50%;
+        margin:auto;
+    }
+    .home-banner .sm-items-list{
+        display:flex;
+        flex-direction:column;
+    }
+  }

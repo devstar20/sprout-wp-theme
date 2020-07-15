@@ -566,7 +566,7 @@ template {
 }
 
 .text-green, .text-green:hover {
-  color: #00b8a9;
+  color: #1DB2A6;
 }
 
 .text-yellow {
@@ -575,7 +575,6 @@ template {
 .btn-lg-content{
   padding: 15px 62px;
 }
-
 
 .featured-title{
   margin-top:218px;
@@ -586,9 +585,29 @@ template {
 }
 
 .inline-image-warp{
+   display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+}
+
+.featured-image-warp{
   display:flex;
-  justify-content: space-between;
+  justify-content:center;
+  flex-wrap: wrap; 
+  opacity:0.6;
+}
+
+.solution-description{
+  max-width:808px;
+  margin:auto;
 }
 
 
+
+.home-delivery{
+  position:relative;
+  background-image: url(../img/home-delivery-background.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 
