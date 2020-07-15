@@ -1,0 +1,51 @@
+
+/* @import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap');*/
+
+
+
+@font-face{
+    font-family: Rubik-regular;
+    src: url('../font/Rubik-Regular.ttf');
+}
+
+@font-face{
+    font-family: Rubik-light;
+    src: url('../font/Rubik-Light.ttf');
+}
+
+@font-face{
+    font-family: Rubik-bold;
+    src: url('../font/Rubik-Bold.ttf');
+}
+
+@font-face{
+    font-family: Rubik-medium;
+    src: url('../font/Rubik-Medium.ttf');
+}
+
+* {
+    font-family: Rubik-regular;
+    color:#1F2240;
+}
+
+
+.f-m{ font-family: Rubik-medium; }
+.f-b{ font-family: Rubik-bold; }
+
+/** font-size layout **/
+.f-18{ font-size: 18px; }
+.f-20{ font-size: 20px; }
+.f-22{ font-size: 22px; }
+.f-35{ font-size: 35px; }
+.f-58{ font-size:58px; }
+
+/** padding layout **/
+.pt-24{ padding-top:24px; }
+.pt-40{ padding-top: 40px; }
+.pt-70{ padding-top:70px; }
+.pt-80{ padding-top: 80px; }
+.pt-100{ padding-top:100px; }
+
+/** margine layout **/
+.mr-30{ margin-right:30px;}
+
