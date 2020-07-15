@@ -1,0 +1,1 @@
+sprout-wp-theme
