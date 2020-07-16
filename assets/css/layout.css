@@ -37,25 +37,29 @@
 .f-18{ font-size: 18px; }
 .f-20{ font-size: 20px; }
 .f-22{ font-size: 22px; }
+.f-28{ font-size: 28px; }
 .f-35{ font-size: 35px; }
 .f-48{ font-size: 48px; }
-.f-58{ font-size:58px; }
+.f-58{ font-size: 58px; }
 
 /** padding layout **/
-.pt-20{ padding-top: 20px;  }
-.pt-24{ padding-top:24px; }
+.pt-12{ padding-top: 12px; }
+.pt-20{ padding-top: 20px; }
+.pt-24{ padding-top: 24px; }
 .pt-40{ padding-top: 40px; }
+.pt-44{ padding-top: 44px; }
 .pt-48{ padding-top: 48px; }
-.pt-55 { padding-top:55px; }
-.pt-70{ padding-top:70px; }
+.pt-55{ padding-top: 55px; }
+.pt-70{ padding-top: 70px; }
 .pt-80{ padding-top: 80px; }
-.pt-100{ padding-top:100px; }
-.pt-180 {padding-top:180px; }
-.pb-180{ padding-bottom:180px; }
+.pt-100{ padding-top: 100px; }
+.pt-180{ padding-top: 180px; }
+.pb-180{ padding-bottom: 180px; }
 /** margine layout **/
 .mr-30{ margin-right:30px;}
 
 /** line height layout **/
+.lh-24{ line-height: 24px; }
 .lh-32{ line-height: 32px; }
 
 /** fill color layout **/
@@ -126,16 +130,4 @@
 
 
 
-  /***************media query **************/
-
-  @media (max-width: 525px){
-    .home-banner .sm-item-icon{
-        padding-top:10px;
-        width:50%;
-        margin:auto;
-    }
-    .home-banner .sm-items-list{
-        display:flex;
-        flex-direction:column;
-    }
-  }
+  
